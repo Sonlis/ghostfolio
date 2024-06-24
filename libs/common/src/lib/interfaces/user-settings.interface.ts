@@ -1,5 +1,7 @@
 import { ColorScheme, DateRange, ViewMode } from '@ghostfolio/common/types';
 
+import { xRayRules } from './x-ray-rule.interface';
+
 export interface UserSettings {
   annualInterestRate?: number;
   baseCurrency?: string;
@@ -17,4 +19,5 @@ export interface UserSettings {
   retirementDate?: string;
   savingsRate?: number;
   viewMode?: ViewMode;
+  xRayRules?: xRayRules;
 }
